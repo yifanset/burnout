@@ -1,0 +1,148 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.1);
+    backdrop-filter: blur(30px);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.headerContainer {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer a {
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerContainer a:hover {
+    transform: scale(1.1);
+}
+
+.headerContainer img {
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 0 transparent);
+}
+
+.headerContainer a:hover img {
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.8));
+}
+
+a:hover {
+    color: var(--bg-accent-2);
+}
+
+.userMenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.username {
+    font-weight: 500;
+    color: var(--text-primary);
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.username:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.logoutButton {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    animation: slideIn 0.3s ease-out;
+}
+
+
+.logoutButton:hover {
+    background: linear-gradient(135deg, #ff5252, #ff7b7b);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+.logoutButton:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading {
+    color: #666;
+    font-style: italic;
+}
+
+/* Альтернативный вариант с выпадающим меню */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    min-width: 120px;
+    overflow: hidden;
+    z-index: 1000;
+    animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

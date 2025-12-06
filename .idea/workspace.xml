@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f11ae69a-8489-4bc1-81c2-a64c9bbe3486" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard/DashboardPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard/DashboardPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/premium/PremiumPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/premium/PremiumPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/example.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/example.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/DataInputLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/DataInputLayout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/components/chat-bot/ChatBot.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/components/chat-bot/ChatBot.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/components/chat-bot/ChatBot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/components/chat-bot/ChatBot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/components/excel-upload/BulkUploadForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/components/excel-upload/BulkUploadForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/components/excel-upload/BulkUploadForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/components/excel-upload/BulkUploadForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/data-input/components/single-test/SingleEmployeeForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/data-input/components/single-test/SingleEmployeeForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/login/LoginPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/login/LoginPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/login/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/login/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/login/SignUpPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/login/SignUpPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data/.~lock.data_raw.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data/data_raw.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data/processed/dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data/processed/dataset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data/processed/features.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data_processor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35WBRcstGvf1rN87TFcaRDdRFSz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender may affect IDE",
+    "Notification.DoNotAsk-WindowsDefender": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/vitalka/Documents/programming/burnout-service",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.start:dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\vitalka\\Documents\\programming\\burnout-service\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\programming\burnout-service\backend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vitalka\Documents\programming\burnout-service" />
+      <recent name="C:\Users\vitalka\Documents\programming\burnout-service\frontend\public" />
+      <recent name="C:\Users\vitalka\Documents\programming\burnout-service\frontend" />
+      <recent name="D:\programming\burnout-service\frontend\src\assets" />
+      <recent name="D:\programming\burnout-service\frontend\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start:dev" />
+      <item itemvalue="npm.dev" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f11ae69a-8489-4bc1-81c2-a64c9bbe3486" name="Changes" comment="" />
+      <created>1763215940502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763215940502</updated>
+      <workItem from="1763215942107" duration="148000" />
+      <workItem from="1763216135181" duration="462000" />
+      <workItem from="1763216625967" duration="151000" />
+      <workItem from="1763216785673" duration="341000" />
+      <workItem from="1763217137307" duration="45000" />
+      <workItem from="1763217192684" duration="427000" />
+      <workItem from="1763217636242" duration="4816000" />
+      <workItem from="1763302822990" duration="68000" />
+      <workItem from="1763474118478" duration="296000" />
+      <workItem from="1763474594714" duration="1378000" />
+      <workItem from="1763476001476" duration="375000" />
+      <workItem from="1763807936110" duration="467000" />
+      <workItem from="1764858128355" duration="1736000" />
+      <workItem from="1764860517423" duration="6592000" />
+      <workItem from="1764932049428" duration="1386000" />
+      <workItem from="1764959278956" duration="7305000" />
+      <workItem from="1764989339390" duration="7534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
