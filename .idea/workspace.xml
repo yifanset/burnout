@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/pages/dashboard/DashboardPage.module.css" afterDir="false" />
@@ -17,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/frontend/src/pages/premium/PremiumPage.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
@@ -87,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/vitalka/Documents/programming/burnout-service",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -170,7 +170,7 @@
       <workItem from="1764860517423" duration="6592000" />
       <workItem from="1764932049428" duration="1386000" />
       <workItem from="1764959278956" duration="7305000" />
-      <workItem from="1764989339390" duration="7534000" />
+      <workItem from="1764989339390" duration="8313000" />
     </task>
     <servers />
   </component>
